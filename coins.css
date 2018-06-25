@@ -1,0 +1,34 @@
+body {
+		background-color: darkcyan;
+		color: darkcyan;
+}
+
+.container {
+		width: 800px;
+		margin: 50px auto;
+		height: 500px;
+		background-color: #FFF;
+		text-align: center;
+		padding: 50px;
+		font-family: sans-serif;
+}
+
+.drag-target {
+		cursor: pointer;
+}
+
+.drop-zone {
+		float: left;
+		width: 135px; 
+		height: 135px;
+		border-radius: 80px;
+		margin: 111px;
+		padding: 10px;
+		border: 4px solid #BBB;
+		background-color: #EEE;
+}
+
+[draggable] {
+	cursor: move;
+}
+
